@@ -91,17 +91,22 @@ section h3 {
   margin-bottom: 8px;
   color: #0066cc;
   font-size: 0.95em;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: list-item;
   padding: 5px 8px;
   background-color: #f0f7ff;
   border-radius: 3px;
   transition: background-color 0.2s;
+  list-style-position: outside;
 }
 
 .participants-section li:hover {
   background-color: #e0eff7;
+}
+
+.participant-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .participant-name {
